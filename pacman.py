@@ -29,7 +29,7 @@ ghosts = [
     [vector(-180, -160), vector(0, 1)],
     [vector(100, 160), vector(0, -1)],
     [vector(100, -160), vector(-1, 0)],
-    [vector(50, -150), vector(-1, 0)]
+    [vector(50, -150), vector(-1, 0)],
     [vector(80, -100), vector(-1, 0)]
 ]
 # fmt: off
