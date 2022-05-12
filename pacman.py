@@ -157,7 +157,7 @@ def move():
     dot(20, 'yellow')
 
     for point, course in ghosts:
-        if distance(point, pacman) < 30:
+        if distance((point.x, point.y), (pacman.x, pacman.y)) < 30:
             plan  = get_dir(point,pacman)  
 
             if valid(point + plan * modifier):
