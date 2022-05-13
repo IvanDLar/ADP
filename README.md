@@ -41,13 +41,23 @@ python pacman.py
 - Up Key -> Move up
 - Down Key -> Move down
 
+### Modifications:
 
+    -Improved enemy AI
+    -Background color changed
+    -Enemies can be eaten
 
 ### Cannon
 
 #### Controls: 
 
 - On Tap -> Change Bullet Speed
+
+### Modifications:
+
+    -Bullet speed increased
+    -Target speed increased
+    -Targets reaper on the other side when they reach the end of the screen
 
 ### Paint
 
@@ -58,10 +68,17 @@ python pacman.py
 - W Key -> Change color to white
 - B Key -> Change color to blue
 - R Key -> Change color to red
+- P Key -> Change color to purple
 - l Key -> Change shape to line
 - s Key -> Change shape to square
 - c Key -> Change shape to circle
 - r Key -> Change shape to rectangle
 - t Key -> Change shape to triangle
 
+### Modifications:
+
+    -Addition of circle, rectangle and triangle
+    -Addition of the purple color
+    -Figures use the first click as their center
+    
 *Link to video explaining each game in detail: [video](https://pages.github.com/)*
