@@ -199,11 +199,6 @@ def change(x, y):
         aim.x = x
         aim.y = y
 
-def random_color():
-    global writer
-
-    writer.color(math.randint(256),math.randint(256),math.randint(256))
-
 setup(420, 420, 370, 0)
 hideturtle()
 tracer(False)
@@ -215,7 +210,6 @@ onkey(lambda: change(5, 0), 'Right')
 onkey(lambda: change(-5, 0), 'Left')
 onkey(lambda: change(0, 5), 'Up')
 onkey(lambda: change(0, -5), 'Down')
-onkey(lambda: random_color(), 'c')
 world()
 move()
 done()
